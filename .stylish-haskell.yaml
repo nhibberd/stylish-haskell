@@ -1,0 +1,24 @@
+# stylish-haskell configuration file
+# ==================================
+
+steps:
+  - imports:
+      align: global
+      list_align: after_alias
+      pad_module_names: false
+      long_list_align: inline
+      empty_list_align: inherit
+      list_padding: 4
+      separate_lists: true
+      space_surround: false
+
+  - language_pragmas:
+      style: vertical
+      align: false
+      remove_redundant: true
+
+  - trailing_whitespace: {}
+
+columns: 120
+
+newline: lf
